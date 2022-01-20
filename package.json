@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-cascading-imports",
   "description": "Sort import declarations into a pleasing and readable cascade.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "ISC",
   "repository": {
     "type": "git",
