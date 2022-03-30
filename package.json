@@ -1,17 +1,13 @@
 {
   "name": "eslint-plugin-cascading-imports",
-  "description": "Sort import declarations into a pleasing and readable cascade.",
   "version": "1.0.0",
+  "description": "Sort import declarations into a pleasing and readable cascade.",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cheap-glitch/eslint-plugin-cascading-imports.git"
-  },
-  "bugs": {
-    "url": "https://github.com/cheap-glitch/eslint-plugin-cascading-imports/issues"
-  },
   "author": "cheap glitch <cheap.glitch@gmail.com> (https://github.com/cheap-glitch)",
+  "repository": "cheap-glitch/eslint-plugin-cascading-imports",
   "homepage": "https://github.com/cheap-glitch/eslint-plugin-cascading-imports#readme",
+  "bugs": "https://github.com/cheap-glitch/eslint-plugin-cascading-imports/issues",
+  "funding": "https://github.com/sponsors/cheap-glitch",
   "keywords": [
     "bindings",
     "cascade",
