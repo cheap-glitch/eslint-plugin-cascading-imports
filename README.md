@@ -1,8 +1,8 @@
 # ⛲ eslint-plugin-cascading-imports
 
-![License](https://badgen.net/github/license/cheap-glitch/eslint-plugin-cascading-imports?color=green)
-![Latest release](https://badgen.net/github/release/cheap-glitch/eslint-plugin-cascading-imports?color=green)
-[![Coverage status](https://coveralls.io/repos/github/cheap-glitch/eslint-plugin-cascading-imports/badge.svg?branch=main)](https://coveralls.io/github/cheap-glitch/eslint-plugin-cascading-imports?branch=main)
+[![License](https://shields.io/github/license/cheap-glitch/eslint-plugin-cascading-imports)](LICENSE)
+[![Latest release](https://shields.io/github/v/release/cheap-glitch/eslint-plugin-cascading-imports?sort=semver&label=latest%20release&color=green)](https://github.com/cheap-glitch/eslint-plugin-cascading-imports/releases/latest)
+[![Coverage status](https://shields.io/coveralls/github/cheap-glitch/eslint-plugin-cascading-imports)](https://coveralls.io/github/cheap-glitch/eslint-plugin-cascading-imports)
 
 This  plugin allows  to automatically  enforce  a visual  "cascading" order  for
 import declarations.
@@ -12,6 +12,7 @@ and if  equal then according to  the length of their  specifier. Imports without
 bindings will be left untouched, as their order may be important.
 
 Before:
+
 ```javascript
 import { lorem, ipsum } from 'cicero';
 import foo from 'foo';
@@ -25,6 +26,7 @@ import * as nebula from './lib/galaxy.js';
 ```
 
 After:
+
 ```javascript
 import foo from 'foo';
 import { xizzy } from 'magic-words';
@@ -50,6 +52,7 @@ Make sure you've also [installed ESLint](https://eslint.org/docs/user-guide/gett
 ## Usage
 
 This plugin exports a single rule, called `cascading-imports`:
+
 ```json
 {
   "plugins": [
@@ -81,8 +84,8 @@ Contributions are welcomed! Please open an issue before submitting substantial c
 
 ## Related
 
- * [sort-imports](https://eslint.org/docs/rules/sort-imports#import-sorting-sort-imports) - Core ESLint rule to sort imports and their bindings
- * [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import) - Various ESLint rules to validate your imports
+ * [`sort-imports`](https://eslint.org/docs/rules/sort-imports#import-sorting-sort-imports) – Core ESLint rule to sort imports and their bindings
+ * [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import) – Various ESLint rules to validate your imports
 
 ## License
 
